@@ -1,0 +1,6 @@
+@tak_point_of_sale_HostAddress = http://localhost:5114
+
+GET {{tak_point_of_sale_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
