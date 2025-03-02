@@ -1,25 +1,20 @@
 namespace takpos
 {
-    public partial class Person
+    public partial class Product
     {
-        string name { get; set; }
-        string email { get; set; }
-        string sms { get; set; }
+        string description { get; set; }
+        string size { get; set; }
 
-        public Person()
+        public Product()
         {
             {
-                if (name == null)
+                if (description == null)
                 {
-                    name = "";
+                    description = "";
                 }
-                if (email == null)
+                if (size == null)
                 {
-                    email = "";
-                }
-                if (sms == null)
-                {
-                    sms = "";
+                    size = "";
                 }
             }
         }
