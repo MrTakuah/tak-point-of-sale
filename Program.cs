@@ -1,3 +1,5 @@
+using takpos;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,7 +16,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Console.WriteLine()
 
+app.UseHttpsRedirection();
 app.Run();
+
+
+
+
 
