@@ -2,19 +2,20 @@ namespace takpos
 {
     public partial class Product
     {
-        string description { get; set; }
-        string size { get; set; }
+        string Description { get; set; }
+        string Size { get; set; }
+        decimal Price { get; set; }
 
         public Product()
         {
             {
-                if (description == null)
+                if (Description == null)
                 {
-                    description = "";
+                    Description = "";
                 }
-                if (size == null)
+                if (Size == null)
                 {
-                    size = "";
+                    Size = "";
                 }
             }
         }

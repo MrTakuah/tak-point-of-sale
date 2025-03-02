@@ -1,12 +1,15 @@
 namespace takpos
+
 {
-    public partial class Person
+    public partial class OrderPerson
     {
+        Guid OrderPersonId { get; set; }
+        Guid OrderId { get; set; }
         string Name { get; set; }
         string Email { get; set; }
         string Sms { get; set; }
-        Guid PersonId { get; set; }
-        public Person()
+
+        public OrderPerson()
         {
             {
                 if (Name == null)
@@ -23,5 +26,5 @@ namespace takpos
                 }
             }
         }
-    };
+    }
 }

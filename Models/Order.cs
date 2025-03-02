@@ -1,22 +1,14 @@
 namespace takpos
 {
-    public partial class PersonOrder
+    public partial class Order
     {
-        string orderId2 { get; set; }
-        Guid orderId3 { get; set; }
-        string personName { get; set; }
+        Guid OrderId { get; set; }
+        DateTime BusinessDate { get; set; }
+        List<OrderProducts> OrderProducts { get; set; }
+        string Status { get; set; }
 
-        public PersonOrder()
+        public Order()
         {
-            if (orderId2 == null)
-            {
-                orderId2 = "";
-            }
-            if (personName == null)
-            {
-                personName = "";
-            }
-
         }
 
     }
