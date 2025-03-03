@@ -5,6 +5,8 @@ namespace takpos
         string Description { get; set; }
         string Size { get; set; }
         decimal Price { get; set; }
+        string ProductLabel { get; set; }
+        Guid ProductId {get; set; }
 
         public Product()
         {
@@ -16,6 +18,10 @@ namespace takpos
                 if (Size == null)
                 {
                     Size = "";
+                }
+                if (ProductLabel == null)
+                {
+                    ProductLabel = "";
                 }
             }
         }

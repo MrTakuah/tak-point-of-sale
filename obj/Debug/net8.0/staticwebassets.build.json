@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6L/jiZ0XjBgjdE+LzAjkLOAW0mE2bb/rJUEe5h3AcE8=",
+  "Source": "tak-point-of-sale",
+  "BasePath": "_content/tak-point-of-sale",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

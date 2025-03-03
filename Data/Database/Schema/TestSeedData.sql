@@ -1,7 +1,7 @@
 USE takpos
 INSERT INTO [takpos].[dbo].[Products]
 VALUES 
-(newid(),'test',GetDate()) 
+(newid(),'test',GetDate(), 'Test Coffee') 
 
 select *
 from Products
