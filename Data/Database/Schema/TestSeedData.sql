@@ -21,3 +21,25 @@ from PersonOrders
 use takpos
 INSERT INTO [takpos].[dbo].[PersonOrders]
 VALUES()
+
+SELECT *
+FROM [takpos].[dbo].[Products]
+
+USE takpos
+INSERT INTO [takpos].[dbo].[Products]
+VALUES 
+(newid(),'test',GetDate(), 'Test Coffee') 
+
+ALTER TABLE takpos.DBO.Products ADD Price DECIMAL;
+ALTER TABLE takpos.DBO.Products ADD CreatedAt DATETIME
+DELETE FROM Products where ProductId = '22613872-64bd-443d-a0ac-603e23d0b6d2'
+
+
+USE takpos
+INSERT INTO [takpos].[dbo].[Products]
+VALUES 
+(newid(),'test',GetDate(), 'Test Coffee','2.99') 
+USE takpos
+INSERT INTO [takpos].[dbo].[Products]
+VALUES 
+(newid(),'test',GetDate(), 'Test Coffee') 

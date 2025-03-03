@@ -24,6 +24,13 @@ public class ProductController : ControllerBase
         IEnumerable<Product> products = _dapper.LoadData<Product>(sql);
         return products;
     }
+    [HttpPost("AddProduct")]
+    public IActionResult AddProduct(Product products)
+    {
+        string sql = @"
+        
+        ";
+    }
 }
 
 
