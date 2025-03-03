@@ -15,23 +15,25 @@ public class ProductController : ControllerBase
     [HttpGet("GetProducts")]
     public IEnumerable<Product> GetProducts()
     {
+        Product t = new Product();
         string sql = @"
             SELECT [ProductId],
                    [Description],
                    [CreatedAt],
                    [ProductLabel]
                        FROM [takpos].[dbo].[Products]";
-        IEnumerable<Product> products = _dapper.LoadData<Product>(sql);
+        IEnumerable<Product> products = _dapper.LoadData<Product>(sql, t);
         return products;
     }
-    [HttpPost("AddProduct")]
-    public IActionResult AddProduct(Product products)
-    {
-        string sql = @"
-        
-        ";
-    }
+    // [HttpPost("AddProduct")]
+    // public IActionResult AddProduct(Product products)
+    // {
+    //     // string sql = 
+    // }
 }
+
+
+
 
 
 

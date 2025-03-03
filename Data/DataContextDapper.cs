@@ -11,11 +11,12 @@ namespace takpos
         {
             _config = config;
         }
-        public IEnumerable<T> LoadData<T>(string sql)
+        public IEnumerable<T> LoadData<T>(string sql, T parameters)
         {
             IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            return dbConnection.Query<T>(sql);
+            return dbConnection.Query<T>(sql, parameters);
         }
+        
         public T LoadDataSingle<T>(string sql)
         {
             IDbConnection dbConnection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
