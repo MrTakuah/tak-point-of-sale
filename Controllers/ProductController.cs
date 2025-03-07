@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace takpos.Controllers;
+namespace tak_point_of_sale.Controllers;
 
 [ApiController]
 [Route("[controller]")]
@@ -23,8 +23,6 @@ public class ProductController : ControllerBase
                 FROM [takpos].[dbo].[Products]";
         IEnumerable<Product> products = _dapper.LoadData<Product>(sql);
         return products;
-
-
     }
     [HttpPost("AddProduct")]
     public IActionResult AddProduct(Product product)
@@ -37,11 +35,19 @@ public class ProductController : ControllerBase
                 [ProductLabel], 
                 [CreatedAt])
                 VALUES (@ProductId, @Description, @Price, @ProductLabel, @CreatedAt)";
-
         product.ProductId = Guid.NewGuid();
-        product.CreatedAt = DateTime.Now;   
-        
+        product.CreatedAt = DateTime.Now;
+
         _dapper.SaveData(sql, product);
+        return Ok();
+    }
+    [HttpDelete("DeleteProduct")]
+    public IActionResult DeleteProduct(Guid productId)
+    {
+        string sql = @"
+                DELETE FROM [takpos].[dbo].[Products]
+                WHERE [ProductId] = @ProductId";
+        _dapper.SaveData(sql, new { Productid = productId });
         return Ok();
     }
 }

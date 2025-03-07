@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tak-point-of-sale", "tak-point-of-sale.csproj", "{F6446160-2950-34AF-B717-2508B102A7E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tak_point_of_sale", "tak_point_of_sale.csproj", "{F6446160-2950-34AF-B717-2508B102A7E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

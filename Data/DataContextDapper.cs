@@ -2,9 +2,10 @@ using System.Data;
 using Dapper;
 using Microsoft.Data.SqlClient;
 
-namespace takpos
+namespace tak_point_of_sale
+#pragma warning restore format
 {
-    class DataContextDapper
+     class DataContextDapper
     {
         private readonly IConfiguration _config;
         public DataContextDapper(IConfiguration config)

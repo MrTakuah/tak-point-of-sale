@@ -1,4 +1,4 @@
-using takpos;
+using tak_point_of_sale;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Swashbuckle.AspNetCore.SwaggerUI;

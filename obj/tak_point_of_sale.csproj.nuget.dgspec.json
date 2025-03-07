@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak-point-of-sale.csproj": {}
+    "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak_point_of_sale.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak-point-of-sale.csproj": {
+    "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak_point_of_sale.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak-point-of-sale.csproj",
-        "projectName": "tak-point-of-sale",
-        "projectPath": "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak-point-of-sale.csproj",
+        "projectUniqueName": "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak_point_of_sale.csproj",
+        "projectName": "tak_point_of_sale",
+        "projectPath": "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak_point_of_sale.csproj",
         "packagesPath": "C:\\Users\\Takua\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\obj\\",
         "projectStyle": "PackageReference",

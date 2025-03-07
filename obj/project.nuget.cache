@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KqV6sh4h2Cg=",
+  "dgSpecHash": "Fef4DgOWidA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Takua\\OneDrive\\Documents\\GitHub\\tak-point-of-sale\\tak-point-of-sale.csproj",
+  "projectFilePath": "C:\\Users\\Takua\\OneDrive\\Coding\\tak_point_of_sale\\tak_point_of_sale.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Takua\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Takua\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

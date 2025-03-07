@@ -1,4 +1,4 @@
-namespace takpos
+namespace tak_point_of_sale
 {
     public partial class Product
     {
@@ -16,10 +16,6 @@ namespace takpos
                 {
                     Description = "";
                 }
-                // if (Size == null)
-                // {
-                //     Size = "";
-                // }
                 if (ProductLabel == null)
                 {
                     ProductLabel = "";

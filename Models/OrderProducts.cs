@@ -1,4 +1,4 @@
-namespace takpos
+namespace tak_point_of_sale
 {
     public partial class OrderProducts
     {

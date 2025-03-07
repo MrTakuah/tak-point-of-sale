@@ -78,3 +78,14 @@ C:\Users\Takua\OneDrive\Documents\GitHub\tak-point-of-sale\obj\Debug\net8.0\refi
 C:\Users\Takua\OneDrive\Documents\GitHub\tak-point-of-sale\obj\Debug\net8.0\tak-point-of-sale.pdb
 C:\Users\Takua\OneDrive\Documents\GitHub\tak-point-of-sale\obj\Debug\net8.0\tak-point-of-sale.genruntimeconfig.cache
 C:\Users\Takua\OneDrive\Documents\GitHub\tak-point-of-sale\obj\Debug\net8.0\ref\tak-point-of-sale.dll
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.csproj.AssemblyReference.cache
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.AssemblyInfoInputs.cache
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.AssemblyInfo.cs
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.csproj.CoreCompileInputs.cache
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.sourcelink.json
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.dll
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\refint\tak-point-of-sale.dll
+C:\Users\Takua\OneDrive\Coding\tak_point_of_sale\obj\Debug\net8.0\tak-point-of-sale.pdb
