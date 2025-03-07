@@ -5,17 +5,21 @@ namespace tak_point_of_sale
         Guid OrderProductId { get; set; }
         Guid OrderId { get; set; }
         string ProductDescription { get; set; }
-        string ProductSize { get; set; }
-        decimal ProductPrice { get; set; }
+        int Quantity { get; set; }
+        string Size { get; set; }
+        decimal Price { get; set; }
+        DateTime BusinessDate { get; set; }
+        DateTime CreatedAt { get; set; }
+
         public OrderProducts()
         {
             if (ProductDescription == null)
             {
                 ProductDescription = "";
             }
-            if (ProductSize == null)
+            if (Size == null)
             {
-                ProductSize = "";
+                Size = "";
             }
         }
     };
