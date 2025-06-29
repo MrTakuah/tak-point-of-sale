@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using tak_point_of_sale.Models;
 
 namespace tak_point_of_sale.Controllers;
 

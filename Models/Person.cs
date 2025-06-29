@@ -2,10 +2,10 @@ namespace tak_point_of_sale
 {
     public partial class Person
     {
-        string Name { get; set; }
-        string Email { get; set; }
-        string Sms { get; set; }
-        Guid PersonId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Sms { get; set; }
+        public Guid PersonId { get; set; }
         public Person()
         {
             {

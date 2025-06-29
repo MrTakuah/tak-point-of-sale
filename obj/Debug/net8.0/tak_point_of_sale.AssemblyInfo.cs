@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tak_point_of_sale")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+750ae6e164b4c8926ee6fe3176073d0c24a17237")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b625438814f4d0aa3d8b2aed3f7a3d02b3c4acb")]
 [assembly: System.Reflection.AssemblyProductAttribute("tak_point_of_sale")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tak_point_of_sale")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
