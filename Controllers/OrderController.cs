@@ -7,42 +7,21 @@ namespace tak_point_of_sale.Controllers;
 
 public class OrderController : ControllerBase
 {
-    DataContextDapper _dapper;
-
-    public OrderController(IConfiguration config)
+    private readonly IOrderRepository _orderRepository;
+    public OrderController(IOrderRepository orderRepository)
     {
-        _dapper = new DataContextDapper(config);
+        _orderRepository = orderRepository;
     }
     [HttpGet("GetOrders")]
     public IEnumerable<Order> GetOrders()
     {
-        string sql = @"
-        SELECT 
-            [OrderId],
-            [BusinessDate],
-            [CreatedAt],
-            [Status] 
-            FROM [takpos].[dbo].[Orders]";
-        IEnumerable<Order> orders = _dapper.LoadData<Order>(sql);
-        return orders;
+        return _orderRepository.GetOrders();  
     }
-    [HttpPost("CreateOrder")]
-    public IActionResult CreateOrder(Order order)
-    {
-        string status = "In-Progress";
-        string sql = @"
-            INSERT INTO [takpos].[dbo].[Orders]
-            ([OrderId],
-            [BusinessDate],
-            [CreatedAt],
-            [Status])
-            VALUES (@OrderId,@BusinessDate,@CreatedAt,@Status)";
-        order.OrderId = Guid.NewGuid();
-        order.BusinessDate = DateTime.Today.Date;
-        order.CreatedAt = DateTime.UtcNow;
-        order.Status = status;
 
-        _dapper.SaveData(sql, order);
+    [HttpPost("CreateOrder")]
+    public IActionResult CreateOrder(Order order, string status)
+    {
+        _orderRepository.CreateOrder(order, status);
         return Ok();
     }
 }

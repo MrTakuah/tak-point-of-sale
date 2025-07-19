@@ -3,7 +3,7 @@ using Dapper;
 using Microsoft.Data.SqlClient;
 
 namespace tak_point_of_sale
-#pragma warning restore format
+
 {
      class DataContextDapper
     {
